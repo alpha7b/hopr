@@ -73,5 +73,7 @@ In derp.hoprnet.org, we can see the following information.
 ```
 1. 0xdeace8f5: [sendToL2](https://www.4byte.directory/signatures/?bytes4_signature=0xdeace8f5)
 2. 64: Decimal 100 which is the target chainId as I'm trying to send eth to Gnosis chain
-3. recipient: myAddress
-4. 
+3. myAddress: recipient which is still my own address
+4. 2386f26fc1: 
+5. 234f2219f7993b: Decimal 9938632068012347, amountOutMin, minimum eth I receive on target chain
+6. 62b1a94c: Decimal 1655810380, this is unix timestamp which is the deadline of this transaction 
