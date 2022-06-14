@@ -77,3 +77,11 @@ In derp.hoprnet.org, we can see the following information.
 4. 2386f26fc1: 
 5. 234f2219f7993b: Decimal 9938632068012347, amountOutMin, minimum eth I receive on target chain
 6. 62b1a94c: Decimal 1655810380, this is unix timestamp which is the deadline of this transaction 
+
+I didn't find much intersting info so far. If there are two available DERP RPCs and derp.hoprnet.org can display information two chains, I will continue testing these bridges.
+
+## To do:
+1. Test HOP with two DERP RPCs. Better on low gas fees chains like between gnosis and polygon.
+2. Test the anyCall feature from Multichain.org. It can sends message to another chain and use case is multichain voting.
+
+3. If I use js code to interact with uniswapV2 function such as `swapExactTokensForTokens`, are we exposing less information than using UI? or there is no difference?
